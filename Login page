@@ -1,0 +1,45 @@
+
+<% String me = (String)session.getAttribute("me");
+if (me!= null) {
+	response.sendRedirect("home.jsp");
+}
+%>
+
+
+
+<html>
+<head>
+<title>Login page</title>
+<style>
+a1 {
+background-color: blue}
+.container {
+width: 800px;
+height: 780px;
+background-image: url('https://i1.adis.ws/i/tom_ford/T0-TOBACCO_OC_100ML_A?$pdp_hero_dsk$&bg=rgb(255,255,255)');
+background-size:  800px x 800px ;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<jsp:include page="header.html"/>
+<form action="login.jsp"> 
+<h2> Sign in  </h2>
+<div1 
+<a1> <input type="button" value="Facebook"/> </a1> 
+<br/>
+ 
+</div1>
+ <label for="username">User name:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+   <input type="password" name="password">
+  
+  <br/>
+   <input type="submit" value="Sign in"/>
+   
+   </form>
+   </div>
+</body>
+</html>
