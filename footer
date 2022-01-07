@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+	.footer {
+	  padding: 1 0px;
+ 	 text-align: left;
+  background-color:  white;
+  
+ 	 color: black;
+	  font-size: 20px;
+	  font-family: Arial;
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</style>
+</head>
+<body>
+<div class="footer">
+  <h6>Copyright © 2006-2022 Retail Master Pty. Ltd. 
+  trading as Feeling Sexy and Agape Hair Design ABN
+   93 153 569 389. All Rights Reserved. Use of this website 
+   constitutes acceptance of the Feeling Sexy User Agreement and Privacy Policy.</h3> </div>
+</body>
+</html>
