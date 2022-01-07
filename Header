@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.header {
+	  padding: 5px;
+ 	 text-align: left;
+  background-color:  lightblue;
+  
+ 	 color: white;
+	  font-size: 30px;
+	  font-family: Comic Sans MS; }
+	 ul {
+	  list-style-type: none;
+	  background-color: orange;}
+	 
+	  li {
+	  display: inline-block;
+	  width: 100px;
+	   font-size: 15px;
+	  	  }
+	  a {
+	  	  text-decoration: none;}
+
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="header">
+  <h3>Feeling sexy</h3>  </div>
+  <div>
+  <ul>
+  <li>  <a href=" "> Home</a>  </li>
+  <li>  <a href=" "> Contact us</a>  </li>
+  <li>  <a href=" "> About</a>  </li>
+  <li>  <a href=" "> Home</a>  </li>
+  </ul>
+ 
+ 
+</div>
+</body>
+</html>
